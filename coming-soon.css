@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.coming-soon {
+	margin-top: 130px;
+	text-align: center;
+}
+
+.coming-soon h1 {
+	font-size: 70px;
+}
+
+
+/* ------Responsive Bootstrap Part-------- */
+
+@media (max-width: 605px) {
+	.coming-soon {
+		margin-top: 100px;
+	}
+	.coming-soon h1 {
+    	font-size: 42px;
+	}
+
+	.coming-soon h2 {
+	 	font-size: 20px;
+	}
+
+}
